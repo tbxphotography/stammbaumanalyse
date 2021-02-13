@@ -14,7 +14,8 @@ var config = {
     },
     scene: {
         preload: preload,
-        create: create
+        create: create,
+        update: update
     }
 };
 
@@ -48,4 +49,9 @@ function create ()
     logo.setCollideWorldBounds(true);
 
     emitter.startFollow(logo);
+}
+
+function update()
+{
+    console.log("aa")
 }
