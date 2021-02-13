@@ -9,7 +9,7 @@ class Node {
     }
 
     insert(node) {
-        this.baum.push("Hello1");
+        this.baum["child"] = "Hello1";
         console.log(this.baum);
     }
   }
