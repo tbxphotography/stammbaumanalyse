@@ -31,7 +31,8 @@ function create ()
    text1.setInteractive();
    text1.on('pointerdown', () => { 
 //add node in baum
-
+var node =new Node();
+node.insert("aaa");
     });
 }
 
