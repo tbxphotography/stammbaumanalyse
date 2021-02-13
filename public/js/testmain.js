@@ -29,7 +29,7 @@ function create ()
 {
     var text1=this.add.text(0, 0, 'Hello World', { fontFamily: 'Georgia, "Goudy Bookletter 1911", Times, serif' });
    text1.setInteractive();
-   text1.on('pointerover', () => { 
+   text1.on('pointerdown', () => { 
 //add node in baum
 
     });
