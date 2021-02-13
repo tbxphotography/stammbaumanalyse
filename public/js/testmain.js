@@ -20,7 +20,6 @@ var config = {
 };
 
 var game = new Phaser.Game(config);
-
 function preload ()
 {
 
@@ -28,7 +27,9 @@ function preload ()
 
 function create ()
 {
-    this.add.text(0, 0, 'Hello World', { fontFamily: 'Georgia, "Goudy Bookletter 1911", Times, serif' });
+    var text1=this.add.text(0, 0, 'Hello World', { fontFamily: 'Georgia, "Goudy Bookletter 1911", Times, serif' });
+ //   text1.setInteractive();
+   text1.on('pointerover', () => { console.log('pointerover'); });
 }
 
 function update()
