@@ -24,3 +24,10 @@ let baum = {
 
 
 }
+
+class baumContainer{
+
+    constructor() {
+       console.log("created");
+      }
+}
